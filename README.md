@@ -38,7 +38,7 @@ The donor-level split ensures that test cells come from individuals that were no
 ├── notebooks/
 │   ├── 01_data_extraction.ipynb
 │   └── 02_analysis.ipynb
-├── data/
+├── raw_data/
 ├── requirements.txt
 └── README.md
 ```
@@ -46,8 +46,8 @@ The donor-level split ensures that test cells come from individuals that were no
 ## Getting Started
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone [https://github.com/mustaphazeezat/analysing-scrna-deep-learning](https://github.com/mustaphazeezat/analysing-scrna-deep-learning)
+cd analysing-scrna-deep-learning
 
 python -m venv .venv
 source .venv/bin/activate
